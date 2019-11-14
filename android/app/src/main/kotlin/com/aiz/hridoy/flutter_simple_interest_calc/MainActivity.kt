@@ -1,0 +1,13 @@
+package com.aiz.hridoy.flutter_simple_interest_calc
+
+import android.os.Bundle
+
+import io.flutter.app.FlutterActivity
+import io.flutter.plugins.GeneratedPluginRegistrant
+
+class MainActivity: FlutterActivity() {
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    GeneratedPluginRegistrant.registerWith(this)
+  }
+}
